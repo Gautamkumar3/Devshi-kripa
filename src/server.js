@@ -14,7 +14,7 @@ app.use(cors());
 app.use("/user", userRouter);
 
 app.get("/", (req, res) => {
-  res.send("Welcome to augmentic");
+  res.send("Welcome to devshi kripa");
 });
 
 app.listen(PORT, async () => {
