@@ -14,7 +14,7 @@ app.get("/", async (req, res) => {
 
 app.post("/signup", async (req, res) => {
   let { email } = req.body;
-  let user = await UserModel.findOne({ email });
+  let user = await User.findOne({ email });
   try {
     if (user) {
       return res
