@@ -15,6 +15,7 @@ const userSchema = mongoose.Schema({
   acc_no: { type: String, required: true },
   bank: { type: String, required: true },
   branch: { type: String, required: true },
+  ifsc: { type: String, required: true },
   mode: { type: String, required: true },
   email: { type: String, required: true },
   password: { type: String, required: true },
